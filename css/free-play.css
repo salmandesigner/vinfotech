@@ -1,0 +1,343 @@
+.about-banner{
+    background-image: url('../images/free-play-banner-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+	height: calc(100vh - 100px);
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 100px;
+	display: flex;
+	align-items: center;
+}
+
+.about-title > h1{
+	color: #FFFFFF;
+	font-family: Geomanist-Bold;
+	/*font-size: 70px;*/
+	font-weight: 600;
+	/*line-height: 91px;*/
+	
+}
+.about-title{
+	max-width: 546px;
+}
+
+.about-title > p{
+	font-family: Geomanist-Light;
+	font-size: 22px;
+	line-height: 28px;
+
+	padding-top: 20px;
+}
+
+.bg-black {
+	background-color: #000000;
+}
+
+.pt-md-55 {
+	padding-top: 55px;
+}
+
+.learn-more-btn-green {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 4px;
+    background-color: #00B46A;
+    box-shadow: 0 2px 3px 0 rgb(0 0 0 / 20%);
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Geomanist-Book;
+}
+
+
+.why-work-vinfotech{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.why-work-title {
+	font-family: Geomanist;
+	font-size: 40px;
+	line-height: 48px;
+	text-align: center;
+}
+.why-work-span{
+	color: #00B46A;
+}
+.why-work{
+    width: 54%;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+.why-work p{
+	color: #000000;
+	font-family: Geomanist;
+	font-size: 18px;
+	line-height: 28px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.numbers h4{
+	color: #212121;
+	font-family: Geomanist;
+	font-size: 100px;
+	line-height: 120px;
+	text-align: center;
+}
+.numbers p {
+
+	color: #212121;
+	font-family: Geomanist;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+}
+.border-right{
+	border-right: #B2B3BA;
+}
+.ready-to-discuss {
+	color: #FFFFFF;
+	font-family: Geomanist;
+	font-size: 40px;
+	line-height: 48px;
+	text-align: center;
+}
+.lets-talk{
+	background-color: #00B46A;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.lets-talk p {
+	margin-top: 50px;
+}
+.lets-talk-buttons {
+	width: 334px;
+	border-radius: 5.71px;
+	background-color: #212121;
+	padding: 20px 90px; 
+	color: #FFFFFF;
+	font-family: Geomanist;
+	font-size: 19.98px;
+	font-weight: 500;
+	line-height: 24px;
+	text-align: center;
+}
+.lets-talk-buttons:hover{
+	text-decoration: unset;
+	color: #FFFFFF;
+}
+.our-approach {
+	padding-top: 100px;
+	padding-bottom: 80px;
+}
+.our-approach h3{
+	color: #212121;
+	font-family: Geomanist;
+	font-size: 40px;
+	line-height: 48px;
+	text-align: center;
+}
+.our-approach p{
+	color: #000000;
+	font-family: Geomanist;
+	font-size: 18px;
+	line-height: 28px;
+	text-align: center;
+}
+.our-approach-content {
+    padding-right: 70px;
+}
+.our-approach-content h4{
+	color: #212121;
+	font-family: Geomanist-Book;
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 28px;
+}
+.our-approach-content p{
+	color: #212121;
+	font-family: Geomanist;
+	font-size: 18px;
+	line-height: 28px;
+}
+.our-approach-padding{
+	padding-bottom: 100px;
+}
+.clients-padding{
+	padding-bottom: 70px;
+	padding-top: 100px;
+}
+.client-section{
+	padding-top: 140px;
+	padding-bottom: 140px;
+	background-color: #000000;
+}
+.we-are-hiring{
+	padding-top: 140px;
+	padding-bottom: 140px;
+}
+.we-are-hiring{
+	padding-top: 140px;
+	padding-bottom: 140px;
+	background-color: #212121;
+}
+.we-are-a-creatively{
+	color: #FFFFFF;
+	font-family: Geomanist;
+	font-size: 40px;
+	line-height: 48px;
+	text-align: center;
+}
+.hiring{
+	padding-top: 60px;
+	text-align: center;
+}
+.hiring a{
+	color: #00B46A;
+	font-family: Geomanist;
+	font-size: 20px;
+	line-height: 24px;
+}
+ #demos .owl-carousel .item{
+    height: auto;
+    padding: 1rem;
+   }
+.about-slider-section   {
+	padding-top: 140px;
+	padding-bottom: 140px;
+}
+@media screen and (max-width:1600px) {
+	.about-header{
+		height: 100vh;
+		text-align: center;
+		color: #FFFFFF;
+	}
+	.about-title > h1{
+		color: #FFFFFF;
+		font-family: Geomanist-Bold;
+		font-size: 58px;
+		/*font-weight: 600;*/
+		line-height: 70px;
+		text-align: center;
+	}
+	.why-work {
+	    width: 80%;
+	    margin: 0 auto;
+	    padding-bottom: 80px;
+	}
+	.numbers h4 {
+	    font-size: 70px;
+	}
+	.our-approach-content {
+    	padding-right: 0;
+	}
+}
+@media screen and (max-width:1280px) {
+	.about-header{
+		height: 100vh;
+		text-align: center;
+		color: #FFFFFF;
+	}
+	.about-title > h1{
+		color: #FFFFFF;
+		font-family: Geomanist-Bold;
+		font-size: 58px;
+		font-weight: 600;
+		line-height: 70px;
+		text-align: center;
+	}
+	.why-work {
+	    width: 80%;
+	    margin: 0 auto;
+	    padding-bottom: 80px;
+	}
+}	
+
+@media screen and (max-width:768px) {
+	.about-header{
+		height: 600px;
+		text-align: center;
+		color: #FFFFFF;
+	}
+	.about-title > h1 {
+	    font-size: 38px;
+	    font-weight: 600;
+	    line-height: 46px;
+   	}
+   	.why-work-vinfotech {
+	    padding-top: 60px;
+	    padding-bottom: 60px;
+	}
+	.numbers h4 {
+    	font-size: 48px;
+	}
+	.numbers p {
+	    font-size: 18px;
+	    line-height: 29px;
+	}
+	.our-approach {
+	    padding-top: 60px;
+	    padding-bottom: 60px;
+	}
+	.our-approach-content {
+	    padding-right: 0;
+	    padding-left: 20px;
+	    padding-bottom: 30px;
+	}
+	.our-approach-padding {
+    	padding-bottom: 60px;
+	}
+	.client-section {
+	    padding-top: 60px;
+	    padding-bottom: 60px;
+	}
+	.we-are-hiring {
+	    padding-top: 60px;
+	    padding-bottom: 60px;
+	}
+}
+
+@media screen and (max-width:767px) {
+	.why-work {
+	    width: 100%;
+	    margin: 0 auto;
+	    padding-bottom: 0px;
+	}
+	.numbers h4{
+		line-height: 90px;
+	}
+	.border-right {
+    	border-bottom: 1px solid rgba(0,0,0,0.1);
+	}
+	.border-right.mobile {
+    	border-bottom: unset;
+	}
+	.lets-talk {
+	    padding-top: 50px;
+	    padding-bottom: 60px;
+	}
+	.clients-padding {
+	    padding-bottom: 70px;
+	    padding-top: 50px;
+	}
+	.client-section img{
+		margin-bottom: 20px;
+	}
+	.clients-padding {
+	    padding-bottom: 20px;
+	    padding-top: 50px;
+	}
+	.we-are-a-creatively {
+	    font-size: 36px;
+	    line-height: 42px;
+	    text-align: center;
+	}
+	.about-slider-section {
+	    padding-top: 60px;
+	    padding-bottom: 60px;
+	}
+}	
+
